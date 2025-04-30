@@ -1,0 +1,29 @@
+{
+  "name": "spotify-downloader-api",
+  "version": "1.0.0",
+  "description": "API para buscar y descargar canciones y álbumes de Spotify, subiendo los MP3 a tmpfiles.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "spotify",
+    "downloader",
+    "api",
+    "music"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@nechlophomeriaa/spotifydl": "*",
+    "axios": "*",
+    "cors": "*",
+    "express": "*",
+    "form-data": "*",
+    "helmet": "*",
+    "morgan": "*"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
